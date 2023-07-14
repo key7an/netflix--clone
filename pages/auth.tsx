@@ -9,7 +9,6 @@ const Auth = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
-
   const [variant, setVariant] = useState("login");
 
   const toggleVariant = useCallback(() => {
@@ -23,7 +22,6 @@ const Auth = () => {
       await signIn("credentials", {
         email,
         password,
-        redirect: false,
         callbackUrl: "/profiles",
       });
     } catch (error) {
