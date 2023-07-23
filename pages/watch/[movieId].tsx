@@ -21,8 +21,8 @@ const Watch = () => {
         <AiOutlineArrowLeft
           onClick={() => router.push("/")}
           color="white"
-          size={40}
-          className=" cursor-pointer hover:scale-110"
+          size={30}
+          className=" cursor-pointer hover:scale-110 hover:opacity-70"
         />
         <p className=" text-white text-xl md:text-3xl font-bold  ">
           <span className=" font-light">Watching: {"  "}</span>
