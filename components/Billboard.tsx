@@ -17,7 +17,7 @@ const Billboard: React.FC = () => {
     <div className="relative h-[56.25vw]">
       <video
         poster={data?.thumbnailUrl}
-        className="w-full h-[56.25vw] object-cover brightness-[60%] transition duration-500"
+        className="w-full h-[56.25vw] object-cover brightness-[70%] transition duration-500"
         autoPlay
         muted
         loop
